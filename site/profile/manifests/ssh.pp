@@ -10,6 +10,6 @@ class profile::ssh {
     ensure => present,
     user => 'root',
     type => 'ssh-rsa',
-    key => '',TODO
+    key => 'AAAAB3NzaC1yc2EAAAADAQABAAABAQC95RSfBH4aKJVekQQQswHpIdhd9ikNzzs/0yO83eiNLb6Sq+7RztKyQR7lpQvGqRVVeJy7n31A5YsBCmN17kuhszoOfCuo/GlhzGkYe4D1EXbhUzWB2vDHUeND/OG4IpMzbOKRzyJbGqguLMnjPEobmoYF8UO+S8N851p6modixgFQ1d4+iuj/vMvGT3QiIu496vA7bAweuxLowvWYhqmx0UzhyvSXmxFNJmnJrsL2QrW9P6wtXdmd92XJlGgofi7bvUmSlYNFq7Y4G7/+G3BI5PLjAXrpcoNt3RclVZzDgbCN/rqXjVrYZXa5KOMdf0FX7PoN5Nf0JAInjDJS7Rnr',
   }
 }
